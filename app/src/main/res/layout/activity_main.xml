@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.popwindow.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvJBZD"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="疾病诊断："
+            android:textColor="@color/public_text_black_color"
+           />
+
+        <TextView
+            android:id="@+id/tv_patient_diseasecontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableRight="@drawable/arrow_icon"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center|left"
+            android:hint="请选择疾病诊断"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+             />
+   </LinearLayout>
+
+    <View
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:background="@color/gray_EBEBEB"
+         />
+
+
+</LinearLayout>
